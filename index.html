@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jess, please!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="mq.css">
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Pacifico|Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- take out http if hosted -->
 	<script src="https://rawgithub.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.min.js"></script>
@@ -24,41 +24,31 @@
 <body>
 
 <!-- This is my nav -->
-	<div class="menu">
-
-		<a href="#home"><div class="menuDot"></div></a>
-		<div class="homep dotDescription">
-			<p>Home</p>
-		</div>
-		<a href="#about"><div class="menuDot"></div></a>
-		<div class="aboutp dotDescription">
-			<p>About</p>
-		</div>
-
-		<a href="#work"><div class="menuDot"></div></a>
-		<div class="workp dotDescription">
-			<p>Work</p>
-		</div>
+	<div class="menu clearfix">
+	<ul>&#9776; Menu
 		
-		<a href="#blog"><div class="menuDot"></div></a>
-		<div class="blogp dotDescription">
-			<p>Blog</p>
-		</div>
+		<li class= "menuLink" ><a href="#home">Home</a>
+		</li>
 		
-		<a href="#contact"><div class="menuDot"></div></a>
-		<div class="contactp dotDescription">
-			<p>Contact</p>
-		</div>
-
+		
+		<li class= "menuLink"><a href="#about">About
+		</a></li>
+		
+		<li class= "menuLink"><a href="#work">Work
+		</a></li>
+		<li class= "menuLink"><a href="#blog">Blog
+		</a></li>
+		<li class= "menuLink"><a href="#contact">Contact
+		</a></li>
+	</ul>
 
 	</div> <!-- menu -->
 
 	<!-- This is home -->
 	<div class="section home clearfix" id="home">
 		<div class="innerWrapper">
-		<svg class="telephone" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 	x="0px" y="0px"
-			width="400px" height="400px" viewBox="-100 -97.711 300 297.711" enable-background="new -100 -97.711 300 297.711"
-			xml:space="preserve">
+		<svg class="telephone" 
+			 viewBox="-100 -97.711 300 297.711">
 			<path class="cable buzz" fill="#e30030" d="M133.51,181.456l8.038-6.023c2.611-1.946,4.074-4.58,4.15-7.396c0.07-2.809-1.257-5.574-3.756-7.779
 			l-5.051-4.447c-6.022-5.329-8.684-11.832-7.297-17.866c1.387-6.031,6.622-10.725,14.366-12.883l6.487-1.801
 			c2.839-0.789,4.314-1.997,4.509-2.843c0.193-0.84-0.612-2.564-2.841-4.515l-5.411-4.729c-6.082-5.303-8.755-11.793-7.373-17.804
@@ -125,8 +115,6 @@
 <div class="section about clearfix" id="about">
 	<div class="innerWrapper">
 
-
-
 		<!-- <div class="webDeveloper third">
 			<div class="skills clearfix">
 				<ul class="skillMeter">
@@ -148,8 +136,31 @@
 		<div class="myPhoto">
 			<img class="aboutPic " src="images/me.jpg" alt="Photo of Jess">
 			<h3><a href="www.twitter.com/jessicaduarte">@jessicaduarte</a></h3>
-			<p>Jess, here!</p>
-			<p></p>
+			<h3>Jess, here!  </h3>
+			<p>I am a front-end developer with a passion for making a difference in the lives of others.</p> 
+			<p>If you are trying to do the same and need an enthusiastic and dedicated web developer, I would love to work with you.</p>
+
+		</div>
+
+		<div class="skills">
+			<h3>My Tool Box</h3>
+			<ul class="row1">
+				<li>HTML5</li>
+				<li>English</li>
+				<li>CSS3</li>
+				<li>Italian</li>
+				<li>JavaScript</li>
+				<li>French</li>
+				<li>Sass</li>
+				<li>Spanish</li>
+				<li>jQuery</li>
+				<li>Wordpress</li>
+				<li>Mobile/Responsive Design</li>
+				<li>SEO</li>
+				<li>Digital Strategy</li>
+				<li>Accesibility</li>
+				<li>API</li>
+				<li>Adobe Suite</li>
 		</div>
 		<!-- <div class="multilingual third">
 
@@ -168,7 +179,7 @@
 			</div>
 			<h3>I speak in these languages</h3>
 			<p>A native Spanish speaker, I went to a bilingual English/French university and picked up Italian on the street. </p>
-		</div> -->
+		</div>
 
 
 		<div class="innerWrapper secondThirds">
@@ -217,29 +228,29 @@ This is a question break -->
 
 
 <div class="section work clearfix" id="work">
-	<div class="innerWrapper">
+	<div class="innerWrapper work">
 		<h2>Work</h2>
-		<div class="third webDev">
-			<iframe src="http://www.youtube.com/embed/-Wa4yasUqQ4" frameborder="0" allowfullscreen></iframe>
+		<div class="third clearfix webDev">
+			<iframe src="http://player.vimeo.com/video/87893028"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 			<h3>Web Development</h3>
 			<p>Web Developer coding in HTML, CSS and Javascript. Learning at <a href="http://www.hackeryou.com" target:"_blank">hackerYou.</a></p>
 
 		</div> <!-- webDev -->
-		<div class="third digitalStrategy">
-			<img src="images/littlegrape.jpg" height="480" width="720" alt="Jess being interviewed for The Little Grape That Could">
+		<div class="third clearfix digitalStrategy">
+			<img src="images/littlegrape.jpg" alt="Jess being interviewed for The Little Grape That Could">
 			<h3>Digital Strategy</h3>
-			<p>Developing the social media strategy for the launch of The Little Grape That Could, a wine brand that rose to the top 10 new wines sold at the LCBO within the first 6 months of product launch.</p>
+			<p>Developed the social media strategy for the launch of The Little Grape That Could, a wine brand that rose to the top 10 new wines sold at the LCBO within the first 6 months of product launch.</p>
 
 			<!-- ISSUE WITH CODE BEGINS HERE - MUST FIX -->
-			<div class="largePhoto"
+		<div class="largePhoto"
 			<img src="images/littlegrape.jpg" height="480" width="720" alt="Jess being interviewed for The Little Grape That Could">
+			</div>
+		</div> <!-- digitalStrategy -->
+		<div class="third experiential clearfix">
+			<iframe src="http://www.youtube.com/embed/H8ewTckvY9o" frameborder="0" allowfullscreen></iframe>
+			<h3>Experiential Marketing</h3>
+			<p>Conception and implementation of the largest experiential marketing event at Women's College Hospital Foundation that included 1500 guests, 75% new to the organization, and a reach of over 26 million people</p>
 		</div>
-	</div> <!-- digitalStrategy -->
-	<div class="third experiential">
-		<iframe src="http://www.youtube.com/embed/H8ewTckvY9o" frameborder="0" allowfullscreen></iframe>
-		<h3>Experiential Marketing</h3>
-		<p>Conception and implementation of the largest experiential marketing event at Women's College Hospital Foundation that included 1500 guests, 75% new to the organization, and a reach of over 26 million people</p>
-	</div>
 </div>
 </div>
 <!-- ISSUE ENDS HERE -->
@@ -252,11 +263,12 @@ This is a question break -->
 <div class="section blog clearfix" id="blog">
 	<div class="innerWrapper">
 		<div class="post">
-			<h2>The Essenth of CSS Specificity</h2>
-			<p>It’s been two days since I started the Full-Time Front-End Bootcamp at HackerYou, and already I feel completely at home in the new beautiful space they’re creating at Learning Labs. And it’s not just because the space is beautiful and the team is doing such a great job making us feel welcome. It’s also because all my classmates are so uniquely amazing, and so willing to share experiences and engage in conversation.</p>
+			<h2>How To Animate SVGs For Total Beginners</h2>
+			<p>SVGs and I met on a lovely afternoon in Toronto, Ontario at the gorgeous new Learning Labs. That's where hackerYou, the school that is teaching me how to code and changing my life, headquarters is.
 
-			<p>Since I just finished the Part-Time HTML&CSS course last December, I was expecting to be a little bit bored reviewing everything I just learned. But that’s not the case at all! I’m learning something new every day. One really great thing they made us do yesterday was break into teams and work on a set of questions on CSS specificity. I partnered up with Jana, who did not take the part-time class last month. Surely enough, ten minutes into our discussion, Jana and I stumbled upon a conundrum. <span><a href="http://jessicanduarte.tumblr.com/post/74932429305/the-essenth-of-css-specificity" target="_blank">More...</a></span></p>
-
+			<p>In exchange for everything my teachers at hackerYou are giving me, if you're reading this and happen to know nothing about SVGs, I'm going to give you the gift of blowing your mind!
+			</p>
+			<p>I discovered what I'm about to share with you during the first week of my coding bootcamp. That's just how quickly you learn with @WesBos and @brnnbrn at hackerYou.<span><a href="http://jessplease.ghost.io/how-to-animate-svgs-for-total-beginners/" target="_blank">More...</a></span></p>
 		</div><!--  POST -->
 	</div> <!-- INNERWRAPPER -->
 </div><!--  BLOG -->
@@ -293,18 +305,19 @@ This is a question break -->
 		</div></a>
 	</div> <!-- social media logos end -->
 
-	<form action="sendEmail.php" method="POST" class="myForm" autocomplete="off" name="myForm">
-		<label for="name">Please enter your full name</label>
-		<input type="text" name="name" placeholder="Name">
-		<label for="subject">Subject:</label>
-		<input type="text" name="subject" placeholder="Subject">
-		<label for="email">Please enter your e-mail address:</label>
-		<input type="email" name="email" placeholder="E-mail Address">
+	<form action="https://auroradarwin.wufoo.com/forms/z1le2z711fgecuy/#public" method="POST" class="myForm" autocomplete="off" name="myForm">
+		<label for="Field8">Please enter your full name</label>
+		<input type="text" name="Field8" placeholder="Name">
+		<label for="Field13">Subject:</label>
+		<input type="text" name="Field13" placeholder="Subject">
+		<label for="Field6">Please enter your e-mail address:</label>
+		<input type="email" name="Field6" placeholder="E-mail Address">
 
 		<div class="message">
-			<label for="message">Enter Message:</label>
-			<textarea placeholder="Write something nice." cols="100" rows="10"></textarea>
+			<label for="Field5">Enter Message:</label>
+			<textarea placeholder="Write something nice." cols="100" rows="10" name="Field5"></textarea>
 		</div> <!-- message -->
+		<input type="hidden" id="idstamp" name="idstamp" value="jtTHclKf+H2Q6BSUxM9AuBwKD+L78umEPlobNPY31Zo=" />
 		<div class="submit innerWrapper">
 			<input class="submit" type="submit" value="Jess, please!">
 		</div>

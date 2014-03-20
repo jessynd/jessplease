@@ -1,0 +1,42 @@
+@media (max-width: 900px) {
+	.menu ul li {
+	float: left;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.4);
+	}
+	.menu ul li ul li{
+		position: static;
+
+	}
+	
+	h1 {
+		font-size: 4.2rem;
+	}
+	
+	.digitalStrategy img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 650px) {
+	.third {
+		width: 100%;
+		margin: 0;
+
+	}
+iframe {
+		height: 300px;
+	}
+.work .innerWrapper img {
+	min-height: 300px;
+
+	display: block;
+	margin: 0 auto;
+
+}
+.third p {
+	font-size: 2rem;
+}
+	
+
+}

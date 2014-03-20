@@ -1,0 +1,1093 @@
+/*SHADOWS*/
+ @-webkit-keyframes shadow {
+  0% {
+    text-shadow: 0px 0px 0 rgba(254,254,254,0.7); 
+    
+  }
+
+  25% {
+     text-shadow: 2px 3px 0 rgba(254,254,254,0.3); 
+     
+  }
+
+  75% {
+   text-shadow: 15px 20px 0 rgba(254,254,254,1);
+  }
+
+  100% {
+    text-shadow: 2px 3px 0 rgba(254,254,254,0.7)
+
+  }
+}
+
+
+.shadow {
+  -webkit-animation-name: shadow;
+  animation-name: shadow;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/*HEADING 1*/
+
+@-webkit-keyframes rainbow1 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+  10% {
+    color: hsl(15,100%,50%);
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+  75% { color: hsl(360, 100%, 50%);
+  }
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+}
+@keyframes rainbow1 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+  10% {
+    color: hsl(15,100%,50%);
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+  75% { color: hsl(360, 100%, 50%);
+  }
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+}
+.rainbow1 {
+  -webkit-animation-name: rainbow1;
+  animation-name: rainbow1;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;
+ 
+}
+
+@-webkit-keyframes rainbow2 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+
+@keyframes rainbow2 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow2 {
+  -webkit-animation-name: rainbow2;
+  animation-name: rainbow2;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.1s;
+  animation-delay: 0s, 0.1s;
+  
+}
+
+@-webkit-keyframes rainbow3 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+@keyframes rainbow3 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow3 {
+  -webkit-animation-name: rainbow3;
+  animation-name: rainbow3;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.2s;
+  animation-delay: 0s, 0.2s;
+  
+}
+
+@-webkit-keyframes rainbow4 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+
+@keyframes rainbow4 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow4 {
+  -webkit-animation-name: rainbow4;
+  animation-name: rainbow4;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.3s;
+  animation-delay: 0s, 0.3s;
+  
+}
+
+@-webkit-keyframes rainbow5 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+
+@keyframes rainbow5 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow5 {
+  -webkit-animation-name: rainbow5;
+  animation-name: rainbow5;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.4s;
+  animation-delay: 0s, 0.4s;
+  
+}
+
+@-webkit-keyframes rainbow6 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+
+@keyframes rainbow6 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow6 {
+  -webkit-animation-name: rainbow6;
+  animation-name: rainbow6;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.5s;
+  animation-delay: 0s, 0.5s;
+  
+}
+
+
+
+@-webkit-keyframes rainbow7 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+  10% {
+    color: hsl(15,100%,50%);
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+  75% { color: hsl(360, 100%, 50%);
+  }
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+}
+@keyframes rainbow7 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+  10% {
+    color: hsl(15,100%,50%);
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+  75% { color: hsl(360, 100%, 50%);
+  }
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+}
+.rainbow7 {
+  -webkit-animation-name: rainbow7;
+  animation-name: rainbow7;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.6s;
+  animation-delay: 0s, 0.6s;
+  
+}
+
+@-webkit-keyframes rainbow7 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+  10% {
+   color: hsl(15,100%,50%);
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+  75% { color: hsl(360, 100%, 50%);
+  }
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+}
+.rainbow7 {
+  -webkit-animation-name: rainbow7;
+  animation-name: rainbow7;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.7s;
+  animation-delay: 0s, 0.7s;
+  
+}
+
+@-webkit-keyframes rainbow8 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+
+@keyframes rainbow8 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow8 {
+  -webkit-animation-name: rainbow8;
+  animation-name: rainbow8;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.8s;
+  animation-delay: 0s, 0.8s;
+  
+}
+
+@-webkit-keyframes rainbow9{
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+
+@keyframes rainbow9{
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow9{
+  -webkit-animation-name: rainbow9;
+  animation-name: rainbow9;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 0.9s;
+  animation-delay: 0s, 0.9s;
+  
+}
+
+@-webkit-keyframes rainbow10 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+
+@keyframes rainbow10 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow10 {
+  -webkit-animation-name: rainbow10;
+  animation-name: rainbow10;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 1s;
+  animation-delay: 0s, 1s;
+  
+}
+
+@-webkit-keyframes rainbow11 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+}
+
+@keyframes rainbow11 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+}
+.rainbow11 {
+  -webkit-animation-name: rainbow11;
+  animation-name: rainbow11;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 1.1s;
+  animation-delay: 0s, 1.1s;
+  
+}
+
+@-webkit-keyframes rainbow12 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+
+@keyframes rainbow12 {
+  0% {
+    color: transparent;
+    background: black;
+  }
+
+  10% {
+    color: hsl(15,100%,50%);
+
+  }
+  25% {
+    color: hsl(75,100%, 50%);
+  }
+
+  50% {
+    color: hsl(144, 100%, 50%);
+  }
+
+  75% { color: hsl(360, 100%, 50%);
+
+  }
+
+  100% { 
+    color: hsl(207,73%, 57%);
+    background: black;
+  }
+
+}
+.rainbow12 {
+  -webkit-animation-name: rainbow12;
+  animation-name: rainbow12;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 1.2s;
+  animation-delay: 0s, 1.2s;
+  
+}
+
+@-webkit-keyframes appear1 {
+  0% {
+    color: transparent;
+    
+  }
+50% {
+  color: rgba(254,254,254,0.5);
+}
+
+  100% { 
+    color: rgba(254,254,254,0.8);
+     text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  }
+}
+@keyframes appear1 {
+  0% {
+    color: transparent;
+    
+  }
+50% {
+  color: rgba(254,254,254,0.5);
+}
+
+  100% { 
+    color: rgba(254,254,254,0.8);
+     text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  }
+}
+.appear1 {
+  -webkit-animation-name: appear1;
+  animation-name: appear1;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 1.3s;
+  animation-delay: 0s, 1.3s;
+  
+}
+
+@-webkit-keyframes appear2 {
+  0% {
+    color: transparent;
+    
+  }
+50% {
+  color: rgba(254,254,254,0.5);
+}
+
+  100% { 
+    color: rgba(254,254,254,0.8);
+     text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  }
+
+}
+@keyframes appear2 {
+  0% {
+    color: transparent;
+    
+  }
+50% {
+  color: rgba(254,254,254,0.5);
+ 
+}
+
+  100% { 
+    color: rgba(254,254,254,0.8);
+      text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    
+  }
+
+}
+.appear2 {
+  -webkit-animation-name: appear2;
+  animation-name: appear2;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 3.5s;
+  animation-delay: 0s, 3.5s;
+  
+}
+
+@-webkit-keyframes appear3 {
+  0% {
+    color: transparent;
+    
+  }
+50% {
+  color: rgba(254,254,254,0.5);
+}
+
+  100% { 
+    color: rgba(254,254,254,0.8);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  }
+}
+
+@keyframes appear3 {
+  0% {
+    color: transparent;
+    
+  }
+50% {
+  color: rgba(254,254,254,0.5);
+}
+
+  100% { 
+    color: rgba(254,254,254,0.8);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  }
+}
+.appear3 {
+  -webkit-animation-name: appear3;
+  animation-name: appear3;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 5s;
+  animation-delay: 0s, 5s;
+  
+}
+
+/*MENU DROP - THIS ANIMATION DOESN'T WORK PROPERLY SO I'M COMMENTING IT OUT*/
+
+/*@-webkit-keyframes magicDrop {
+  
+ from {
+    top: -6rem;
+   
+  }
+  to{
+    top: 0;
+  
+  }
+}
+@keyframes magicDrop {
+  
+ from {
+    top: -6rem;
+   
+  }
+  to{
+    top: 0;
+  
+  }
+}
+  .magicDrop {
+  -webkit-animation-name: magicDrop;
+  animation-name: magicDrop;
+  -webkit-animation-duration: 1s;
+  animation-duration:1s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-delay: 0s, 7s;
+  animation-delay: 0s, 7s;
+  }
+}*/
+

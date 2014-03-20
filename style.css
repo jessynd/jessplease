@@ -22,10 +22,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 html {
 	font-size: 62.5%;
+	padding: 0;
 }
 body {
 	font-style: arial;
 	padding: 0;
+	margin: 0;
 	background: url(images/fabricplaid.png);
 	font-family: 'open sans', arial;
 	color: rgba(254,254,254,0.7);
@@ -52,11 +54,17 @@ h2 {
 
 }
 
+h3 {
+	color:#252736;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+}
+
 p {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin: 0;
 	color: #252736;
-	line-height: 2rem
+	line-height: 1.5;
 }
 
 span {
@@ -71,44 +79,70 @@ a {
 .section {
 	margin-top: 0;
 	
-	border-bottom: 1rem solid rgb(243, 240, 240);
-
 }
-
 /*nav styling begins here*/
-
 .menu {
-	position: fixed;
+	
 	text-align: center;
 	padding: 0 3rem;
+	height: 50px;
+	width: 100%;
+	margin-top: 0;
+	margin: 0 auto;
 
+
+		
 }
 
-.menu:hover .dotDescription{
-	display:block;
+.menu ul {
+	padding-left: 0;
+	margin: 0 auto;
+	position: relative;
+	font-size: 20px;
+	position: fixed;
+	top: 20px;
+	color: red;
+
+
+}
+.menu ul li {
+	list-style-type:none;
+	positon: absolute;
+	padding: 0 20px;
+	font-size: 20px;
+	text-align: center;
+	top: -50px;
+
+
+
 	
+	/*display: none;*/
+
 }
 
-.menuDot {
-	width: 19px;
-	height: 19px;
-	border-radius: 50%;
-	background:#252736;
-	margin: 0.5rem;
-	
+.menu ul li a {
+	color: white;
+	font-family: 'open sans';
+	text-align: center;
+	font-weight: 300;
+	background: #e30030;
+	width: 100%;
+	display: block;
+	padding: 1rem;
+	font-size: 0;
+
+
+
 }
-
-.menuDot:hover {
-	background: #E30030;
+.menu ul li:hover  a{
+	color: #e30030;
 }
-
-
+/*Home styling begins*/
 .telephone {
 	height: 40rem;
 	width: 40rem;
+	margin-top: 60px;
 }
-
-/*Home styling begins*/
 
 .homep {
 	display:none;
@@ -160,17 +194,28 @@ a {
 	animation-duration: .15s;
 	-webkit-animation-timing-function: linear;
 	animation-timing-function: linear;
-	-webkit-animation-iteration-count: 20;
-	animation-iteration-count: 20;
+	-webkit-animation-iteration-count: 30;
+	animation-iteration-count: 30;
+}
+
+svg.telephone {
+	width: 400px;
+	height: 400px;
+	width: 60%;
 }
 
 
 /*About section begins*/
+.about {
+	background: #F3F0F0;
+}
 .aboutp {
 	display:none;
 	position: absolute;
 	left: 6rem;
 	top: 2.8rem;
+	font-size: 2.2rem;
+
 
 }
 .workp {
@@ -204,57 +249,7 @@ a {
 	display: block;
 }
 
-
-ul.skillMeter {
-	float: left;
-	width: 100%;
-	list-style: none;
-	padding: 0;
-
-
-}
-
-ul.skillMeter li {
-	padding: 0.5rem;
-	margin: 1rem 0;
-	background: #E30030 ;
-	font-size: 100%;
-	-webkit-transition: width 1s;
-	width: 30%;
-	color: white;
-}
-
-.skills:hover ul.skillMeter li.skill1 { width: 100%; }
-.skills:hover ul.skillMeter li.skill2 { width: 100%; }
-.skills:hover ul.skillMeter li.skill3 { width: 100%; }
-.skills:hover ul.skillMeter li.skill4 { width: 100%; }
-.skills:hover ul.skillMeter li.skill4Ita { width: 60%; }
-.axisLabels {
-	display: block;
-	width:100%;
-	float:left;
-	padding-left: 0;
-	border-top: 1px solid #E30030;
-	margin-left:0;
-}
-.axisLabels span {
-	display: block;
-	width:27%;
-	float: left;
-	color:#252736;
-	font-size: 1.2rem;
-}
-.axisLabels span.great{
-	text-align: center;
-}
-.axisLabels span.awesome {
-	text-align: right;
-}
-
-
-.secondThirds{
-	width:100%;
-	clear:both;
+/**/;
 }
 
 .about p {
@@ -265,13 +260,36 @@ ul.skillMeter li {
 .innerWrapper{
 	max-width: 800px;
 	margin: 3rem auto;
-	text-align: center
+	text-align: center;
+	padding: 1rem;
+}
+
+.skills {
+	border-top: 1rem solid #F3F0F0;
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+
+}
+
+.skills h3 {
+	color: #e30030 ;
+}
+
+.row1 li {
+	color: #252736;
+	width: 50%;
+	float: left;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: none;
 }
 
 /*Question Break begins*/
 
 .wouldI {
 	width:100%;
+	background: #e30030 ;
+	color: white;
 }
 .innerWrapper.questionBreak {
 	width: 100%;
@@ -279,6 +297,7 @@ ul.skillMeter li {
 	text-align:0;
 	padding: 5rem 0;
 	line-height: 5rem;
+
 }
 
 
@@ -289,6 +308,8 @@ ul.skillMeter li {
 }
 
 /*Work section begins*/
+
+
 .third {
 	width: 29%;
 	float: left;
@@ -297,13 +318,15 @@ ul.skillMeter li {
 
 .third p {
 	text-align: center;
-	padding: 2rem;
+	padding: 1.5rem;
+	padding-top: 0;
+	font-size: 1.5rem;
 }
 
 
 
 .third img {
-	width: 100%;
+width: 100%;
 
 }
 
@@ -451,4 +474,5 @@ body {
 .footer p {
 	padding: 10% 20%;
 }
+
 
