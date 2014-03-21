@@ -31,7 +31,7 @@ body {
 	font-style: arial;
 	padding: 0;
 	margin: 0;
-	background: url(images/fabricplaid.png);
+	background: $white;
 	font-family: 'open sans', arial;
 	color: rgba(254,254,254,0.7);
 
@@ -120,14 +120,15 @@ nav ul li a {
 	font-family: 'open sans';
 	text-align: center;
 	font-weight: 300;
-	background: #e30030;
+	background: $red;
 	width: 20%;
 	display: block;
 	padding: 1.2rem;
 	font-size: 20px;
-	border-right: 1px solid $white;
+	border-bottom: 1px solid $red;
 	float: left;
 	margin-top: 0;
+
 }
 
 nav ul li:last-child a{
@@ -214,13 +215,19 @@ svg.telephone {
 
 /*About section begins*/
 .about {
-	background: $white;
+	background: $blue;
+	color: $white;
 }
 .about p {
 	
 	font-size: 2.2rem;
+	color: $white;
 
 
+}
+
+.about h2 {
+	color: $white;
 }
 .work p {
 	display:none;
@@ -251,6 +258,8 @@ svg.telephone {
 	border-radius: 50%;
 	margin: 0 auto;
 	display: block;
+	border: 10px solid $white;
+
 }
 
 
@@ -309,7 +318,7 @@ svg.telephone {
 
 .wouldI {
 	width:100%;
-	background: $plaid;
+	background: $white;
 	color: white;
 }
 .innerWrapper.questionBreak {
@@ -340,7 +349,11 @@ svg.telephone {
 /*Work section begins*/
 
 .work {
-	background: $white;
+	background: $blue;
+}
+
+.work h2 {
+	color: $white;
 }
 .third {
 	width: 29%;

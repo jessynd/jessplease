@@ -162,7 +162,7 @@ body {
   font-style: arial;
   padding: 0;
   margin: 0;
-  background: url(images/fabricplaid.png);
+  background: #f3f0f0;
   font-family: 'open sans', arial;
   color: rgba(254, 254, 254, 0.7); }
 
@@ -234,7 +234,7 @@ nav ul li a {
   display: block;
   padding: 1.2rem;
   font-size: 20px;
-  border-right: 1px solid #f3f0f0;
+  border-bottom: 1px solid #e30030;
   float: left;
   margin-top: 0; }
 
@@ -303,10 +303,15 @@ svg.telephone {
 
 /*About section begins*/
 .about {
-  background: #f3f0f0; }
+  background: #252736;
+  color: #f3f0f0; }
 
 .about p {
-  font-size: 2.2rem; }
+  font-size: 2.2rem;
+  color: #f3f0f0; }
+
+.about h2 {
+  color: #f3f0f0; }
 
 .work p {
   display: none;
@@ -330,7 +335,8 @@ svg.telephone {
   width: 30%;
   border-radius: 50%;
   margin: 0 auto;
-  display: block; }
+  display: block;
+  border: 10px solid #f3f0f0; }
 
 .innerWrapper {
   max-width: 800px;
@@ -369,7 +375,7 @@ svg.telephone {
 /*Question Break begins*/
 .wouldI {
   width: 100%;
-  background: url(images/fabricplaid.png);
+  background: #f3f0f0;
   color: white; }
 
 .innerWrapper.questionBreak {
@@ -392,7 +398,10 @@ svg.telephone {
 
 /*Work section begins*/
 .work {
-  background: #f3f0f0; }
+  background: #252736; }
+
+.work h2 {
+  color: #f3f0f0; }
 
 .third {
   width: 29%;
