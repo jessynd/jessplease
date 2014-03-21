@@ -360,7 +360,8 @@ svg.telephone {
   font-weight: 300;
   font-size: 1.8rem;
   font-family: 'Open Sans', sans-serif;
-  padding: 0.5rem; }
+  padding: 0.8rem;
+  text-shadow: 1% 1% 0px #f3f0f0; }
 
 .skills ul li ul {
   padding: 3rem; }

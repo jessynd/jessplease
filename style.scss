@@ -283,6 +283,7 @@ svg.telephone {
 	font-family: 'Pacifico', sans-serif;
 	font-weight:600;
 	list-style-type: none;
+	
 }
 
 .skills ul li ul li {
@@ -292,7 +293,9 @@ svg.telephone {
 	font-weight: 300;
 	font-size: 1.8rem;
 	font-family: 'Open Sans', sans-serif;
-	padding: 0.5rem;
+	padding: 0.8rem;
+	text-shadow: 1% 1% 0px $white;
+	
 }
 
 .skills ul li ul {
