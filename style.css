@@ -177,7 +177,8 @@ h2 {
   margin: 0;
   color: #252736;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600; }
+  font-weight: 600;
+  padding: 3rem; }
 
 h3 {
   color: #e30030;
@@ -202,7 +203,8 @@ a {
 
 .section {
   margin-top: 0;
-  padding-top: 50px; }
+  padding: 8rem 0;
+  width: 100%; }
 
 /*nav styling begins here*/
 nav {
@@ -230,16 +232,22 @@ nav ul li a {
   background: #e30030;
   width: 20%;
   display: block;
-  padding: 3rem;
+  padding: 1.2rem;
   font-size: 20px;
   border-right: 1px solid #f3f0f0;
   float: left;
   margin-top: 0; }
 
+nav ul li:last-child a {
+  border-right: 0; }
+
 .menu ul li:hover a {
   color: #252736; }
 
 /*Home styling begins*/
+.home {
+  padding-top: 3rem; }
+
 .telephone {
   height: 40rem;
   width: 40rem;
@@ -295,16 +303,12 @@ svg.telephone {
 
 /*About section begins*/
 .about {
-  background: #F3F0F0; }
+  background: #f3f0f0; }
 
-.aboutp {
-  display: none;
-  position: absolute;
-  left: 6rem;
-  top: 2.8rem;
+.about p {
   font-size: 2.2rem; }
 
-.workp {
+.work p {
   display: none;
   position: absolute;
   left: 6rem;
@@ -328,9 +332,6 @@ svg.telephone {
   margin: 0 auto;
   display: block; }
 
-.about p {
-  font-size: 1.2rem; }
-
 .innerWrapper {
   max-width: 800px;
   margin: 3rem auto;
@@ -338,25 +339,36 @@ svg.telephone {
   padding: 1rem; }
 
 .skills {
-  border-top: 1rem solid #F3F0F0;
-  margin-top: 1rem;
-  padding-bottom: 1rem; }
+  background: #e30030; }
 
 .skills h3 {
-  color: #e30030; }
+  color: #252736; }
 
 .row1 li {
   color: #252736;
-  width: 50%;
+  width: 30%;
   float: left;
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+  font-family: 'Pacifico', sans-serif;
+  font-weight: 600;
   list-style-type: none; }
+
+.skills ul li ul li {
+  list-style-type: none;
+  width: 100%;
+  float: none;
+  font-weight: 300;
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.5rem; }
+
+.skills ul li ul {
+  padding: 3rem; }
 
 /*Question Break begins*/
 .wouldI {
   width: 100%;
-  background: #e30030;
+  background: url(images/fabricplaid.png);
   color: white; }
 
 .innerWrapper.questionBreak {
@@ -366,11 +378,21 @@ svg.telephone {
   padding: 5rem 0;
   line-height: 5rem; }
 
+.questionBreak {
+  color: #f3f0f0; }
+
 .questionBreak span {
-  font-size: 3.4rem;
+  font-size: 4rem;
   font-family: 'Open Sans', sans-serif; }
 
+.questionBreak p {
+  font-size: 2.5rem;
+  font-family: 'Pacifico', sans-serif; }
+
 /*Work section begins*/
+.work {
+  background: #f3f0f0; }
+
 .third {
   width: 29%;
   float: left;
@@ -407,6 +429,9 @@ svg.telephone {
 
 /*
 contact form begins*/
+.contact {
+  background: #f3f0f0; }
+
 .contact h2 {
   padding-bottom: 2rem; }
 
@@ -422,14 +447,16 @@ input {
   outline: none;
   box-shadow: none;
   border: none;
-  float: left; }
+  float: left;
+  padding: 1rem 2rem; }
 
 textarea {
   width: 100%;
   height: 10rem;
   border: none;
   resize: none;
-  display: block; }
+  display: block;
+  padding-left: 2rem; }
 
 div.message {
   float: center;

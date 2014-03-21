@@ -20,6 +20,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 $red : #e30030;
 $blue : #252736;
 $white : #F3F0F0;
+$plaid : url(images/fabricplaid.png);
 
 html {
 	font-size: 62.5%;
@@ -53,6 +54,7 @@ h2 {
 	color: #252736;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
+	padding: 3rem;
 
 }
 
@@ -82,7 +84,8 @@ a {
 }
 .section {
 	margin-top: 0;
-	padding-top: 50px;
+	padding: 8rem 0;
+	width: 100%;
 	
 }
 /*nav styling begins here*/
@@ -120,11 +123,15 @@ nav ul li a {
 	background: #e30030;
 	width: 20%;
 	display: block;
-	padding: 3rem;
+	padding: 1.2rem;
 	font-size: 20px;
 	border-right: 1px solid $white;
 	float: left;
 	margin-top: 0;
+}
+
+nav ul li:last-child a{
+	border-right: 0;
 }
 
 .menu ul li:hover  a{
@@ -135,6 +142,10 @@ nav ul li a {
 
 
 /*Home styling begins*/
+
+.home {
+	padding-top: 3rem;
+}
 .telephone {
 	height: 40rem;
 	width: 40rem;
@@ -203,18 +214,15 @@ svg.telephone {
 
 /*About section begins*/
 .about {
-	background: #F3F0F0;
+	background: $white;
 }
-.aboutp {
-	display:none;
-	position: absolute;
-	left: 6rem;
-	top: 2.8rem;
+.about p {
+	
 	font-size: 2.2rem;
 
 
 }
-.workp {
+.work p {
 	display:none;
 	position: absolute;
 	left: 6rem;
@@ -248,9 +256,6 @@ svg.telephone {
 
 
 
-.about p {
-	font-size: 1.2rem;
-}
 
 
 .innerWrapper{
@@ -261,30 +266,47 @@ svg.telephone {
 }
 
 .skills {
-	border-top: 1rem solid #F3F0F0;
-	margin-top: 1rem;
-	padding-bottom: 1rem;
+	
+	background: $red;
 
 }
 
 .skills h3 {
-	color: #e30030 ;
+	color: $blue;
 }
 
 .row1 li {
-	color: #252736;
-	width: 50%;
+	color: $blue;
+	width: 30%;
 	float: left;
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-size: 2.4rem;
+	font-family: 'Pacifico', sans-serif;
+	font-weight:600;
 	list-style-type: none;
 }
+
+.skills ul li ul li {
+	list-style-type: none;
+	width: 100%;
+	float: none;
+	font-weight: 300;
+	font-size: 1.8rem;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0.5rem;
+}
+
+.skills ul li ul {
+	padding: 3rem;
+
+}
+
+
 
 /*Question Break begins*/
 
 .wouldI {
 	width:100%;
-	background: #e30030 ;
+	background: $plaid;
 	color: white;
 }
 .innerWrapper.questionBreak {
@@ -296,16 +318,27 @@ svg.telephone {
 
 }
 
+.questionBreak {
+	color: $white;	
+}
+
 
 .questionBreak span {
-	font-size: 3.4rem;
+	font-size:4rem;
 	font-family: 'Open Sans', sans-serif;
 
 }
 
+.questionBreak p {
+	font-size: 2.5rem;
+	font-family: 'Pacifico', sans-serif;
+}
+
 /*Work section begins*/
 
-
+.work {
+	background: $white;
+}
 .third {
 	width: 29%;
 	float: left;
@@ -361,6 +394,10 @@ width: 100%;
 /*
 contact form begins*/
 
+.contact {
+	background: $white;
+}
+
 .contact h2 {
 	padding-bottom: 2rem;
 }
@@ -378,6 +415,7 @@ input {
 	box-shadow: none;
 	border:none;
 	float: left;
+	padding: 1rem 2rem;
 }
 
 textarea {
@@ -386,6 +424,7 @@ textarea {
 	border: none;
 	resize:none;
 	display: block;
+	padding-left: 2rem;
 	
 }
 
