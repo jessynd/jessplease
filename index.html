@@ -7,15 +7,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="mq.css">
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Pacifico|Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- take out http if hosted -->
-	<script src="https://rawgithub.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.min.js"></script>
-	<script>
-		$(function(){
-			$('a').smoothScroll({offset:-20});
-		});
 
-
-	</script>
 	
 
 </head>
@@ -24,9 +16,11 @@
 <body>
 
 <!-- This is my nav -->
-	<div class="menu clearfix">
-	<ul>&#9776; Menu
-		
+	<nav class="menu clearfix">
+
+
+	<a href="#">&#9776; Menu</a>
+	  <ul>
 		<li class= "menuLink" ><a href="#home">Home</a>
 		</li>
 		
@@ -40,9 +34,8 @@
 		</a></li>
 		<li class= "menuLink"><a href="#contact">Contact
 		</a></li>
-	</ul>
-
-	</div> <!-- menu -->
+	  </ul> 
+	</nav>
 
 	<!-- This is home -->
 	<div class="section home clearfix" id="home">
@@ -339,6 +332,9 @@ This is a question break -->
 
 </div> <!-- footer -->
 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- take out http if hosted -->
+	<script src="https://rawgithub.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.min.js"></script>
+	<script src="scripts.js"></script>
 </body>
 
-</form>
+</html>
