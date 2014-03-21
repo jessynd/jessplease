@@ -4,9 +4,6 @@
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden],template{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}a{background:transparent;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type=button],/* 1 */
 input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
-
-
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -27,6 +24,7 @@ $white : #F3F0F0;
 html {
 	font-size: 62.5%;
 	padding: 0;
+	margin: 0;
 }
 body {
 	font-style: arial;
@@ -69,6 +67,7 @@ p {
 	margin: 0;
 	color: #252736;
 	line-height: 1.5;
+	padding: 0
 }
 
 span {
@@ -79,85 +78,62 @@ a {
 	text-decoration: none;
 	color: #e30030;
 	font-weight: 600;
+	margin: 0;
 }
 .section {
 	margin-top: 0;
+	padding-top: 50px;
 	
 }
 /*nav styling begins here*/
 nav {
-	
-	
-	padding: 0 3rem;
+
+	padding: 0;
 	height: 50px;
-	width: 150px;
+	width: 100%;
 	margin-top: 0;
 	margin: 0 auto;	
-	position: relative;
 	position: fixed;
-	left: 40px;
-	top: 20px;
-}
-
-nav a {
-	font-size: 20px;
-	width: 125px;
-	height: 88px;
-	color: $blue;
-}
-
-nav:hover ul {
-	display: block;
 }
 
 
 nav ul {
 	padding-left: 0;
 	margin: 0 auto;
-	position: relative;
-	font-size: 50px;
-	top: 20px;
-	left: -18px;
-	display: none
-}
+	width: 100%;
 
-.show {
-	display: block;
-}
-nav ul li {
-	list-style-type:none;
-	font-size: 20px;
-	text-align: center;
+
 	
-	transition: all 0.5s;
 }
 
-.smoothDown {
-	position: relative;
-}
+nav ul li {
+ 	display: inline;
+	text-align: center;
 
-nav ul:hover li {
-	display: block;
-}
 
+}
 nav ul li a {
 	color: $white;
 	font-family: 'open sans';
 	text-align: center;
 	font-weight: 300;
 	background: #e30030;
-	width: 125px;
+	width: 20%;
 	display: block;
 	padding: 3rem;
-	font-size: 50px;
-	border-bottom: 1px solid $white;
-
-
-
+	font-size: 20px;
+	border-right: 1px solid $white;
+	float: left;
+	margin-top: 0;
 }
+
 .menu ul li:hover  a{
 	color: $blue;
 }
+
+
+
+
 /*Home styling begins*/
 .telephone {
 	height: 40rem;
@@ -170,7 +146,6 @@ nav ul li a {
 	position: absolute;
 	left: 6rem;
 	top: 0.5rem;
-
 }
 
 
@@ -495,5 +470,3 @@ body {
 .footer p {
 	padding: 10% 20%;
 }
-
-
