@@ -337,7 +337,8 @@ svg.telephone {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3); }
 
 .about h2 {
-  color: #f3f0f0; }
+  color: #f3f0f0;
+  padding-bottom: 10px; }
 
 .aboutPic {
   width: 30%;
