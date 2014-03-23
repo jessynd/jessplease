@@ -69,7 +69,8 @@ p {
 	margin: 0;
 	color: #252736;
 	line-height: 1.5;
-	padding: 0
+	padding: 0;
+	font-weight: 300;
 }
 
 span {
@@ -84,7 +85,7 @@ a {
 }
 .section {
 	margin-top: 0;
-	padding: 8rem 0;
+	padding: 6rem 0;
 	width: 100%;
 	
 }
@@ -144,11 +145,9 @@ nav {
 	
 	padding: 0 3rem;
 	height: 50px;
-	
 	margin-top: 0;
 	margin: 0 auto;	
 	position: fixed;
-
 	background: $red;
 	width: 100%;
 	text-align: left;
@@ -157,28 +156,33 @@ nav {
 
 nav a {
 	font-size: 20px;
-	width: 125px;
-	height: 88px;
-	color: $white;
+	width: 131px;
+	color: #F3F0F0;
+	font-weight: 300;
+	padding-top: 10px;
+	margin-left: 32px;
+	text-align: center;
+	display: inline-block;
 
 
 }
 
 nav:hover ul {
 	display: block;
+
 }
 
 
 nav ul {
 	padding-left: 0;
-
 	position: relative;
 	font-size: 20px;
-	top: 20px;
-	left: -18px;
+	// top: 20px;
+	// left: -18px;
 	color: $white;
 	display: none;
 	font-weight: 300;
+	margin-top: 0;
 }
 
 .show {
@@ -189,16 +193,18 @@ nav ul li {
 	font-size: 20px;
 	text-align: center;
 	transition: all 0.5s;
+	&:last-child a{
+			border-bottom:0;
+		}
 }
 
-.smoothDown {
-	position: relative;
-}
+// .smoothDown {
+// 	position: relative;
+// }
 
-nav ul:hover li {
-	display: block;
-}
-
+// nav ul:hover li {
+// 	display: block;
+// }
 nav ul li a {
 	color: $white;
 	font-family: 'open sans';
@@ -210,8 +216,7 @@ nav ul li a {
 	padding: 3rem;
 	font-size: 20px;
 	border-bottom: 1px solid $white;
-
-
+	margin-top: 0;
 
 }
 .menu ul li:hover  a{
@@ -300,34 +305,12 @@ svg.telephone {
 	
 	font-size: 2.2rem;
 	color: $white;
-
-
+	font-weight: 300;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
 }
 
 .about h2 {
 	color: $white;
-}
-.work p {
-	display:none;
-	position: absolute;
-	left: 6rem;
-	top: 5.2rem;
-
-}
-.blogp {
-	display:none;
-	position: absolute;
-	left: 6rem;
-	top: 7.6rem;
-
-}
-
-.contactp {
-	display:none;
-	position: absolute;
-	left: 6rem;
-	top: 10.2rem;
-
 }
 
 
@@ -339,11 +322,6 @@ svg.telephone {
 	border: 10px solid $white;
 
 }
-
-
-
-
-
 
 .innerWrapper{
 	max-width: 800px;
@@ -360,7 +338,16 @@ svg.telephone {
 
 .skills h3 {
 	color: $blue;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
 }
+
+svg  {
+	width: 100%;
+	fill: $blue;
+}
+
+
 
 .row1 li {
 	color: $blue;
@@ -370,8 +357,15 @@ svg.telephone {
 	font-family: 'Pacifico', sans-serif;
 	font-weight:600;
 	list-style-type: none;
+	@media (max-width: 700px){
+		width: 50%;
+	};
+	@media (max-width:400px){
+		width: 100%;
+	}
 	
-}
+} 
+
 
 .skills ul li ul li {
 	list-style-type: none;
@@ -385,8 +379,9 @@ svg.telephone {
 	
 }
 
-.skills ul li ul {
+.skills ul li ul:last-child {
 	padding: 3rem;
+	
 
 }
 
@@ -427,64 +422,62 @@ svg.telephone {
 /*Work section begins*/
 
 .work {
-	background: $blue;
+	background: $white;
+	text-align: center;
 }
 
 .work h2 {
-	color: $white;
+	color: $blue;
 }
-.third {
-	width: 29%;
+
+figure {
+	width: 100%/4 - 2%;
+	margin: 1%;
 	float: left;
-	margin: 2%;
+	@media (max-width:700px){
+		width: 48%
+	}
+	@media (max-width: 550px){
+		width: 98%;
+	}
 }
-
-.third p {
-	text-align: center;
-	padding: 1.5rem;
-	padding-top: 0;
-	font-size: 1.5rem;
-}
-
-
-
-.third img {
-width: 100%;
-
-}
-
-.third svg {
+figure img{
 	width: 100%;
+	box-shadow: 0 0 2px rgba(0,0,0,0.7);
+	border-radius: 10px;
+	margin-bottom: 20px;
+
 }
 
-.third iframe {
-	width: 100%;
-}
-
-.work .innerWrapper img {
-	max-height: 15rem;
-	min-height: 15rem;
-	display: block;
-	margin: 0 auto;
-	
+figcaption {
+	color: $blue;
+	font-size: 16px;
 }
 
 
 /*Blog begins*/
 
-
+.section.blog {
+	background: $blue;
+}
 .post h2 {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	
-
-	
+	color: $white;
 }
 
 .post p {
 	padding: 2rem;
+	color: $white;
+	text-shadow: 1px 1px 0 rbga(0,0,0,0.3);
+	font-weight: 300;
+
 }
 
+.post span {
+	color: $red;
+	font-weight: 300;
+}
 /*
 contact form begins*/
 
@@ -533,11 +526,14 @@ div.message {
 
 
 
+.submit.innerWrapper {
+	padding: 0;
+	padding-top: 2rem;
+}
 div.submit {
 	clear: both;
 	margin: 0 auto;
 	text-align: center;
-	padding: 2rem;
 	width: 100%;
 	
 
@@ -560,37 +556,34 @@ label {
 /*
 social media icons*/
 
-.twitter {
-	width: 33%;
+.socialMedia {
+	width: 260px;
+	margin: 0 auto 2rem;
+
+}
+.facebook {
+	width: 32px;
 	float: left;
+	fill: $blue;
+	display: inline;
+	text-align: center;
+	margin: 10px;
 }
 
 .codepen {
-	width: 33%;
-	float: left;
+	@extend .facebook;
 }
 
-.facebook {
-	width: 33%;
-	float: left;
+.twitter {
+	@extend .facebook;
+}
+.email {
+	@extend .facebook;
 }
 
-.logo {
-	width: 120px; /* required to center */
-	height: 120px;
+.github {
+	@extend .facebook;
 }
-.outer-ring {
-	fill: black;
-}
-.inner-box {
-	fill: #E30030;
-}
-
-body {
-	text-align: center;
-}
-
-
 
 
 /*footer begins*/
@@ -598,8 +591,19 @@ body {
 	text-align: center;
 	padding: 0;
 	clear:both;
+	margin-bottom: 0;
+
 }
 
 .footer p {
-	padding: 10% 20%;
+	padding: 5% 20%;
+	color: $blue;
+}
+
+.footer  {
+	padding: 0;
+	background: $red;
+	position: relative;
+	bottom: 0;
+	margin-bottom: 0;
 }
