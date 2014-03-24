@@ -33,7 +33,11 @@ jp.funFacts= function(){
 
 $(function(){
 			$('a').smoothScroll({offset:-20});
-		
+			
+			$("nav a").on("click",function(){
+				alert("yahoo");
+				$("nav.menu ul").toggleClass("show");
+
+			}); //end on click nav a
 
 		}); //end doc ready
-

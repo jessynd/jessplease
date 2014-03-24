@@ -167,10 +167,10 @@ nav a {
 
 }
 
-nav:hover ul {
-	display: block;
+// nav:hover ul {
+// 	display: block;
 
-}
+// }
 
 
 nav ul {
@@ -193,6 +193,7 @@ nav ul li {
 	font-size: 20px;
 	text-align: center;
 	transition: all 0.5s;
+	width:50px;
 	&:last-child a{
 			border-bottom:0;
 		}
@@ -217,10 +218,12 @@ nav ul li a {
 	font-size: 20px;
 	border-bottom: 1px solid $white;
 	margin-top: 0;
+	width: 50px;
 
 }
 .menu ul li:hover  a{
 	color: $blue;
+	
 }
 
 
