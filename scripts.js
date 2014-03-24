@@ -27,17 +27,14 @@ jp.funFacts= function(){
 
 }; //funFacts
 
-
-
-
-
 $(function(){
 			$('a').smoothScroll({offset:-20});
 			
-			$("nav a").on("click",function(){
-				alert("yahoo");
+			$("nav a").on("click",function(e){
+				e.preventDefault();
 				$("nav.menu ul").toggleClass("show");
 
 			}); //end on click nav a
+
 
 		}); //end doc ready
