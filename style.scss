@@ -87,56 +87,7 @@ a {
 	width: 100%;
 	
 }
-/*nav styling begins here*/
-// nav {
 
-// 	padding: 0;
-// 	height: 50px;
-// 	width: 100%;
-// 	margin-top: 0;
-// 	margin: 0 auto;	
-// 	position: fixed;
-// }
-
-
-// nav ul {
-// 	padding-left: 0;
-// 	margin: 0 auto;
-// 	width: 100%;
-
-
-	
-// }
-
-// nav ul li {
-//  	display: inline;
-// 	text-align: center;
-
-
-// }
-// nav ul li a {
-// 	color: $white;
-// 	font-family: 'open sans';
-// 	text-align: center;
-// 	font-weight: 300;
-// 	background: $red;
-// 	width: 20%;
-// 	display: block;
-// 	padding: 1.2rem;
-// 	font-size: 20px;
-// 	border-bottom: 1px solid $red;
-// 	float: left;
-// 	margin-top: 0;
-
-// }
-
-// nav ul li:last-child a{
-// 	border-right: 0;
-// }
-
-// .menu ul li:hover  a{
-// 	color: $blue;
-// }
 
 nav {
 	
@@ -165,10 +116,6 @@ nav a {
 
 }
 
-// nav:hover ul {
-// 	display: block;
-
-// }
 
 
 nav ul {
@@ -361,7 +308,9 @@ svg  {
 }
 
 
-
+ul.row1 {
+	padding: 0;
+}
 .row1 li {
 	color: $white;
 	width: 30%;
@@ -450,6 +399,13 @@ figure {
 	@media (max-width: 550px){
 		width: 98%;
 	}
+}
+
+.imageContainer {
+	height: 155px;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
 figure img{
 	width: 100%;
@@ -594,6 +550,15 @@ social media icons*/
 .github {
 	@extend .facebook;
 }
+
+.phoneNum p{
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+
+}	
 
 
 /*footer begins*/

@@ -27,6 +27,9 @@ jp.funFacts= function(){
 
 }; //funFacts
 
+
+
+
 $(function(){
 			$('a').smoothScroll({offset:-20});
 			

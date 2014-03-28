@@ -207,7 +207,6 @@ a {
   padding: 6rem 0;
   width: 100%; }
 
-/*nav styling begins here*/
 nav {
   padding: 0 3rem;
   height: 50px;
@@ -374,6 +373,9 @@ svg {
   width: 100%;
   fill: #252736; }
 
+ul.row1 {
+  padding: 0; }
+
 .row1 li {
   color: #f3f0f0;
   width: 30%;
@@ -444,6 +446,12 @@ figure {
   @media (max-width: 550px) {
     figure {
       width: 98%; } }
+
+.imageContainer {
+  height: 155px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px; }
 
 figure img {
   width: 100%;
@@ -547,6 +555,13 @@ social media icons*/
   display: inline;
   text-align: center;
   margin: 10px; }
+
+.phoneNum p {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px; }
 
 /*footer begins*/
 .footer .innerWrapper {
